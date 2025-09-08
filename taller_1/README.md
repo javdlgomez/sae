@@ -1,6 +1,6 @@
-# Informe – Estimación de áreas (Fay–Herriot)
+# Rerporte – Taller 1 Fay–Herriot
 
-Resultados por sección y sexo usando estimaciones directas (HT) y el modelo **Fay–Herriot (REML)**.
+Resultados por sección y sexo usando estimaciones directas HT y el modelo **Fay–Herriot REML**.
 
 ## Resultados agregados por sexo
 
@@ -16,16 +16,18 @@ Resultados por sección y sexo usando estimaciones directas (HT) y el modelo **F
 
 **Ingreso** – resumen por sección (H−M):
 
-| N Secciones | Proporción H > M | Diferencia promedio | Diferencia mediana | Proporción |z|>1.96 |
-| --- | --- | --- | --- | --- |
-| 25 | 0.960 | 1,905.747 | 1,166.346 | 0.200 |
+| N Secciones | Proporción H > M | Diferencia promedio | Diferencia mediana | Proporción \|z\| > 1.96 |
+| ---:        | ---:             | ---:                | ---:               | ---:                     |
+| 25          | 0.960            | 1,905.747           | 1,166.346          | 0.200                    |
+
 
 
 **Pobreza** – resumen por sección (H−M):
 
-| N Secciones | Proporción H > M | Diferencia promedio | Diferencia mediana | Proporción |z|>1.96 |
-| --- | --- | --- | --- | --- |
-| 18 | 0.555556 | 0.000302 | 0.000696 | 0.000000 |
+| N Secciones | Proporción H > M | Diferencia promedio | Diferencia mediana | Proporción \|z\| > 1.96 |
+| ---:        | ---:             | ---:                | ---:               | ---:                     |
+| 18          | 0.555556         | 0.000302            | 0.000696           | 0.000000                 |
+
 
 
 ## Top/Bottom con comparación por sección
