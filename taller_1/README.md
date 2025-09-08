@@ -4,12 +4,12 @@ Resultados por sección y sexo usando estimaciones directas HT y el modelo **Fay
 
 ## Resultados agregados por sexo
 
-| Sexo | Variable | N Secciones | CV Directo (%) | CV FH (%) | % MSE(FH)<Var(Dir) |
+| Sexo | Variable | N Secciones | CV Directo (%) | CV FH (%) |
 | --- | --- | --- | --- | --- | --- |
-| H | Ingreso | 25.000 | 4.098 | 4.073 | 1.000 |
-| M | Ingreso | 25.000 | 3.748 | 3.749 | 1.000 |
-| H | Pobreza | 22.000 | 40.211 | 37.898 | 1.000 |
-| M | Pobreza | 19.000 | 15.332 | 14.136 | 1.000 |
+| H | Ingreso | 25.000 | 4.098 | 4.073 | 
+| M | Ingreso | 25.000 | 3.748 | 3.749 | 
+| H | Pobreza | 22.000 | 40.211 | 37.898 | 
+| M | Pobreza | 19.000 | 15.332 | 14.136 | 
 
 
 ## Comparación H vs M EBLUP
