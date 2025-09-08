@@ -1,4 +1,4 @@
-# Rerporte – Taller 1 Fay–Herriot
+# Taller 1 Fay Herriot
 
 Resultados por sección y sexo usando estimaciones directas HT y el modelo **Fay–Herriot REML**.
 
@@ -12,9 +12,9 @@ Resultados por sección y sexo usando estimaciones directas HT y el modelo **Fay
 | M | Pobreza | 19.000 | 15.332 | 14.136 | 1.000 |
 
 
-## Comparación H vs M (EBLUP)
+## Comparación H vs M EBLUP
 
-**Ingreso** – resumen por sección (H−M):
+**Ingreso**  resumen por sección Hombres/Mujeres:
 
 | N Secciones | Proporción H > M | Diferencia promedio | Diferencia mediana | Proporción \|z\| > 1.96 |
 | ---:        | ---:             | ---:                | ---:               | ---:                     |
@@ -22,7 +22,7 @@ Resultados por sección y sexo usando estimaciones directas HT y el modelo **Fay
 
 
 
-**Pobreza** – resumen por sección (H−M):
+**Pobreza** resumen por sección Hombres/Mujeres:
 
 | N Secciones | Proporción H > M | Diferencia promedio | Diferencia mediana | Proporción \|z\| > 1.96 |
 | ---:        | ---:             | ---:                | ---:               | ---:                     |
@@ -30,11 +30,11 @@ Resultados por sección y sexo usando estimaciones directas HT y el modelo **Fay
 
 
 
-## Top/Bottom con comparación por sección
+## Comparaciones por sección
 
-### Ingreso (EBLUP FH)
+### Ingreso EBLUP vs FH
 
-**Top 10 según H**
+**Top 10 H**
 
 | Sección | Ingreso H | CV H (%) | Ingreso M | CV M (%) | H − M | z | Sig.95 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -49,7 +49,7 @@ Resultados por sección y sexo usando estimaciones directas HT y el modelo **Fay
 | 5 | 23,046.491 | 7.702 | 22,366.355 | 6.210 | 680.137 | 0.302 | False |
 | 14 | 22,692.003 | 4.442 | 21,563.911 | 3.972 | 1,128.091 | 0.853 | False |
 
-**Bottom 10 según H**
+**Bottom 10 H**
 
 | Sección | Ingreso H | CV H (%) | Ingreso M | CV M (%) | H − M | z | Sig.95 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -64,7 +64,7 @@ Resultados por sección y sexo usando estimaciones directas HT y el modelo **Fay
 | 22 | 15,432.824 | 4.044 | 14,194.231 | 3.637 | 1,238.593 | 1.529 | False |
 | 3 | 16,801.307 | 11.771 | 16,987.378 | 9.802 | -186.072 | -0.072 | False |
 
-**Top 10 según M**
+**Top 10 M**
 
 | Sección | Ingreso H | CV H (%) | Ingreso M | CV M (%) | H − M | z | Sig.95 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -79,7 +79,7 @@ Resultados por sección y sexo usando estimaciones directas HT y el modelo **Fay
 | 4 | 24,551.732 | 8.944 | 21,687.229 | 7.394 | 2,864.504 | 1.053 | False |
 | 14 | 22,692.003 | 4.442 | 21,563.911 | 3.972 | 1,128.091 | 0.853 | False |
 
-**Bottom 10 según M**
+**Bottom 10 M**
 
 | Sección | Ingreso H | CV H (%) | Ingreso M | CV M (%) | H − M | z | Sig.95 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -95,9 +95,9 @@ Resultados por sección y sexo usando estimaciones directas HT y el modelo **Fay
 | 22 | 15,432.824 | 4.044 | 14,194.231 | 3.637 | 1,238.593 | 1.529 | False |
 
 
-### Pobreza (EBLUP FH)
+### Pobreza EBLUP FH
 
-**Top 10 según H**
+**Top 10 H**
 
 | Sección | Pobreza H | CV H (%) | Pobreza M | CV M (%) | H − M | z | Sig.95 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -112,7 +112,7 @@ Resultados por sección y sexo usando estimaciones directas HT y el modelo **Fay
 | 22 | 0.056985 | 13.342917 | 0.043298 | 14.135950 | 0.013687 | 1.402281 | False |
 | 10 | 0.024009 | 12.638555 | 0.024279 | 11.559803 | -0.000270 | -0.065399 | False |
 
-**Bottom 10 según H**
+**Bottom 10 H**
 
 | Sección | Pobreza H | CV H (%) | Pobreza M | CV M (%) | H − M | z | Sig.95 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -127,7 +127,7 @@ Resultados por sección y sexo usando estimaciones directas HT y el modelo **Fay
 | 10 | 0.024009 | 12.638555 | 0.024279 | 11.559803 | -0.000270 | -0.065399 | False |
 | 22 | 0.056985 | 13.342917 | 0.043298 | 14.135950 | 0.013687 | 1.402281 | False |
 
-**Top 10 según M**
+**Top 10 M**
 
 | Sección | Pobreza H | CV H (%) | Pobreza M | CV M (%) | H − M | z | Sig.95 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -142,7 +142,7 @@ Resultados por sección y sexo usando estimaciones directas HT y el modelo **Fay
 | 22 | 0.056985 | 13.342917 | 0.043298 | 14.135950 | 0.013687 | 1.402281 | False |
 | 10 | 0.024009 | 12.638555 | 0.024279 | 11.559803 | -0.000270 | -0.065399 | False |
 
-**Bottom 10 según M**
+**Bottom 10 M**
 
 | Sección | Pobreza H | CV H (%) | Pobreza M | CV M (%) | H − M | z | Sig.95 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
