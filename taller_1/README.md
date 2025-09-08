@@ -173,9 +173,9 @@ Resultados por sección y sexo usando estimaciones directas HT y el modelo **Fay
    - Diferencias **pequeñas** y **no significativas**, ≈56% con Pobreza(H) > Pobreza(M).  
 
 4) **Patrón territorial**  
-   - Secciones con **ingreso alto en H** suelen ser también **altas en M**.  
+  - Secciones con **ingreso alto en H** suelen ser también **altas en M**.  
   - Secciones con **ingreso bajo en H** suelen ser también **bajo en M**.
-  - 
+    
 5) **Diferencias de Estimadores**  
    - **Directo:** sufre en dominios con **n** pequeño.  
    - **FH:** **mejora precisión** en dominios con CV de **HT** alto.
