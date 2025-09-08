@@ -1,6 +1,6 @@
 # Taller 1 Fay Herriot
 
-Resultados por sección y sexo usando estimaciones directas HT y el modelo **Fay–Herriot REML**.
+Resultados por sección y sexo usando estimaciones directas HT y el modelo **Fay Herriot REML**.
 
 ## Resultados agregados por sexo
 
@@ -34,7 +34,7 @@ Resultados por sección y sexo usando estimaciones directas HT y el modelo **Fay
 
 ### Ingreso EBLUP vs FH
 
-**Top 10 H**
+**Alto 10 H**
 
 | Sección | Ingreso H | CV H (%) | Ingreso M | CV M (%) | H − M | z | Sig.95 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -49,7 +49,7 @@ Resultados por sección y sexo usando estimaciones directas HT y el modelo **Fay
 | 5 | 23,046.491 | 7.702 | 22,366.355 | 6.210 | 680.137 | 0.302 | False |
 | 14 | 22,692.003 | 4.442 | 21,563.911 | 3.972 | 1,128.091 | 0.853 | False |
 
-**Bottom 10 H**
+**Bajo 10 H**
 
 | Sección | Ingreso H | CV H (%) | Ingreso M | CV M (%) | H − M | z | Sig.95 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -64,7 +64,7 @@ Resultados por sección y sexo usando estimaciones directas HT y el modelo **Fay
 | 22 | 15,432.824 | 4.044 | 14,194.231 | 3.637 | 1,238.593 | 1.529 | False |
 | 3 | 16,801.307 | 11.771 | 16,987.378 | 9.802 | -186.072 | -0.072 | False |
 
-**Top 10 M**
+**Alto 10 M**
 
 | Sección | Ingreso H | CV H (%) | Ingreso M | CV M (%) | H − M | z | Sig.95 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -79,7 +79,7 @@ Resultados por sección y sexo usando estimaciones directas HT y el modelo **Fay
 | 4 | 24,551.732 | 8.944 | 21,687.229 | 7.394 | 2,864.504 | 1.053 | False |
 | 14 | 22,692.003 | 4.442 | 21,563.911 | 3.972 | 1,128.091 | 0.853 | False |
 
-**Bottom 10 M**
+**Bajo 10 M**
 
 | Sección | Ingreso H | CV H (%) | Ingreso M | CV M (%) | H − M | z | Sig.95 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -97,7 +97,7 @@ Resultados por sección y sexo usando estimaciones directas HT y el modelo **Fay
 
 ### Pobreza EBLUP FH
 
-**Top 10 H**
+**Alto 10 H**
 
 | Sección | Pobreza H | CV H (%) | Pobreza M | CV M (%) | H − M | z | Sig.95 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -112,7 +112,7 @@ Resultados por sección y sexo usando estimaciones directas HT y el modelo **Fay
 | 22 | 0.056985 | 13.342917 | 0.043298 | 14.135950 | 0.013687 | 1.402281 | False |
 | 10 | 0.024009 | 12.638555 | 0.024279 | 11.559803 | -0.000270 | -0.065399 | False |
 
-**Bottom 10 H**
+**Bajo 10 H**
 
 | Sección | Pobreza H | CV H (%) | Pobreza M | CV M (%) | H − M | z | Sig.95 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -127,7 +127,7 @@ Resultados por sección y sexo usando estimaciones directas HT y el modelo **Fay
 | 10 | 0.024009 | 12.638555 | 0.024279 | 11.559803 | -0.000270 | -0.065399 | False |
 | 22 | 0.056985 | 13.342917 | 0.043298 | 14.135950 | 0.013687 | 1.402281 | False |
 
-**Top 10 M**
+**Alto 10 M**
 
 | Sección | Pobreza H | CV H (%) | Pobreza M | CV M (%) | H − M | z | Sig.95 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -142,7 +142,7 @@ Resultados por sección y sexo usando estimaciones directas HT y el modelo **Fay
 | 22 | 0.056985 | 13.342917 | 0.043298 | 14.135950 | 0.013687 | 1.402281 | False |
 | 10 | 0.024009 | 12.638555 | 0.024279 | 11.559803 | -0.000270 | -0.065399 | False |
 
-**Bottom 10 M**
+**Bajo 10 M**
 
 | Sección | Pobreza H | CV H (%) | Pobreza M | CV M (%) | H − M | z | Sig.95 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -158,12 +158,28 @@ Resultados por sección y sexo usando estimaciones directas HT y el modelo **Fay
 | 22 | 0.056985 | 13.342917 | 0.043298 | 14.135950 | 0.013687 | 1.402281 | False |
 
 
-## Conclusiones
+# Conclusiones
 
-- **Precisión:** FH reduce el MSE en prácticamente todas las secciones. En **pobreza**, además, baja el C.V. mediano; en **ingreso** se mantiene similar pero con MSE menor.
+1) **Efecto del modelo sobre la precisión**  
+   - El modelo **reduce el MSE en el 100% de las secciones**.
+   - En **pobreza** reduce el **CV**, H: ~40%→~38; M: ~15%→~14%.  
+   - En **ingreso** el **CV** se mantiene casi igual, pero el **MSE** baja.
 
-- **Brecha H–M en ingreso:** mayormente positiva (H > M) y de magnitud considerable; sin embargo, solo una fracción de secciones muestra diferencia **estadísticamente significativa** (|z|>1.96).
+2) **Brecha por sexo en ingreso**  
+   - En **≈96%** de las secciones se observa **Ingreso(H) > Ingreso(M)**.  
+   - En aproximadamente **20%** de secciones muestra diferencia **estadísticamente significativa**.
 
-- **Brecha H–M en pobreza:** diferencias pequeñas y no significativas en conjunto.
+3) **Brecha por sexo en pobreza**  
+   - Diferencias **pequeñas** y **no significativas**, ≈56% con Pobreza(H) > Pobreza(M).  
 
-- **Secciones extremas (Top/Bottom):** al listar H y M lado a lado se observan patrones coherentes (p.ej., secciones con ingreso H alto suelen tener también ingreso M alto), y la columna **H−M** permite identificar rápidamente brechas por sección.
+4) **Patrón territorial**  
+   - Secciones con **ingreso alto en H** suelen ser también **altas en M**.  
+  - Secciones con **ingreso bajo en H** suelen ser también **bajo en M**.
+  - 
+5) **Diferencias de Estimadores**  
+   - **Directo:** sufre en dominios con **n** pequeño.  
+   - **FH:** **mejora precisión** en dominios con CV de **HT** alto.
+
+
+
+
