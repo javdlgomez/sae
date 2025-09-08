@@ -4,7 +4,7 @@ Resultados por sección y sexo usando estimaciones directas HT y el modelo **Fay
 
 ## Resultados agregados por sexo
 
-| Sexo | Variable | N Secciones | CV Directo (Mediana %) | CV FH (Mediana %) | % con MSE(FH)<Var(Dir) |
+| Sexo | Variable | N Secciones | CV Directo (%) | CV FH (%) | % MSE(FH)<Var(Dir) |
 | --- | --- | --- | --- | --- | --- |
 | H | Ingreso | 25.000 | 4.098 | 4.073 | 1.000 |
 | M | Ingreso | 25.000 | 3.748 | 3.749 | 1.000 |
