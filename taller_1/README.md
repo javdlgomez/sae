@@ -5,7 +5,7 @@ Resultados por sección y sexo usando estimaciones directas HT y el modelo **Fay
 ## Resultados agregados por sexo
 
 | Sexo | Variable | N Secciones | CV Directo (%) | CV FH (%) |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | 
 | H | Ingreso | 25.000 | 4.098 | 4.073 | 
 | M | Ingreso | 25.000 | 3.748 | 3.749 | 
 | H | Pobreza | 22.000 | 40.211 | 37.898 | 
