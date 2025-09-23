@@ -1,1 +1,6 @@
 taller_1/.Rhistory
+*.Rhistory
+*.RData
+*.RDS
+*.csv
+*.xlsx
