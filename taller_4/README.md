@@ -59,7 +59,7 @@ Además, incluye un **PDF con todos los mapas** y un **Excel** con los indicador
 
 
 
-## Conclusiones sugeridas 
+## Conclusiones  
 
 - **Diferencias Geográficas**: las secciones costeras del sur concentran ingresos medios más altos, con menor incidencia y brecha de pobreza.  
 - **H vs M**: los ingresos medios de los hombres son moderadamente más altos en la mayoría de las secciones.
